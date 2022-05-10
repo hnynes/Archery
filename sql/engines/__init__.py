@@ -209,3 +209,8 @@ def get_engine(instance=None):  # pragma: no cover
         from .clickhouse import ClickHouseEngine
 
         return ClickHouseEngine(instance=instance)
+    
+    elif instance.db_type == 'doris':
+        from .doris import DorisEngine
+
+        return DorisEngine(instance=instance)

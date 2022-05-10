@@ -113,6 +113,8 @@ DB_TYPE_CHOICES = (
     ('phoenix', 'Phoenix'),
     ('odps', 'ODPS'),
     ('clickhouse', 'ClickHouse'),
+    ('doris', 'Doris'),
+    ('doris', 'StarRocks'),
     ('goinception', 'goInception'))
 
 
